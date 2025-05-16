@@ -63,9 +63,9 @@ bindsym $mod+semicolon exec --no-startup-id dmenu_run
 # bindcode $mod+40 exec --no-startup-id i3-dmenu-desktop
 
 # change focus
-bindsym $mod+h focus left
-bindsym $mod+j focus down
-bindsym $mod+k focus up
+#bindsym $mod+h focus left
+#bindsym $mod+j focus down
+#bindsym $mod+k focus up
 bindsym $mod+l focus right
 
 # alternatively, you can use the cursor keys:
@@ -75,9 +75,9 @@ bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
 # move focused window
-bindsym $mod+Shift+h move left
-bindsym $mod+Shift+j move down
-bindsym $mod+Shift+k move up
+#bindsym $mod+Shift+h move left
+#bindsym $mod+Shift+j move down
+#bindsym $mod+Shift+k move up
 bindsym $mod+Shift+l move right
  
 # alternatively, you can use the cursor keys:
@@ -96,9 +96,9 @@ bindsym $mod+Shift+Right move right
 bindsym $mod+Shift+o fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
-bindsym $mod+i layout stacking
-bindsym $mod+o layout tabbed
-bindsym $mod+u layout toggle split
+#bindsym $mod+i layout stacking
+#bindsym $mod+o layout tabbed
+bindsym $mod+o layout toggle split
 
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
@@ -129,24 +129,24 @@ set $ws10 "10"
 bindsym $mod+n workspace number $ws1
 bindsym $mod+m workspace number $ws2
 bindsym $mod+comma workspace number $ws3
-bindsym $mod+period workspace number $ws4
-bindsym $mod+5 workspace number $ws5
-bindsym $mod+6 workspace number $ws6
-bindsym $mod+7 workspace number $ws7
-bindsym $mod+8 workspace number $ws8
-bindsym $mod+9 workspace number $ws9
-bindsym $mod+0 workspace number $ws10
+bindsym $mod+h workspace number $ws4
+bindsym $mod+j workspace number $ws5
+bindsym $mod+k workspace number $ws6
+bindsym $mod+y workspace number $ws7
+bindsym $mod+u workspace number $ws8
+bindsym $mod+i workspace number $ws9
+#bindsym $mod+ workspace number $ws10
 
 # move focused container to workspace
 bindsym $mod+Shift+n move container to workspace number $ws1
 bindsym $mod+Shift+m move container to workspace number $ws2
 bindsym $mod+Shift+comma move container to workspace number $ws3
-bindsym $mod+Shift+period move container to workspace number $ws4
-bindsym $mod+Shift+5 move container to workspace number $ws5
-bindsym $mod+Shift+6 move container to workspace number $ws6
-bindsym $mod+Shift+7 move container to workspace number $ws7
-bindsym $mod+Shift+8 move container to workspace number $ws8
-bindsym $mod+Shift+9 move container to workspace number $ws9
+bindsym $mod+Shift+h move container to workspace number $ws4
+bindsym $mod+Shift+j move container to workspace number $ws5
+bindsym $mod+Shift+k move container to workspace number $ws6
+bindsym $mod+Shift+y move container to workspace number $ws7
+bindsym $mod+Shift+u move container to workspace number $ws8
+bindsym $mod+Shift+i move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws1
 
 # reload the configuration file
